@@ -34,3 +34,13 @@ text-transform: capitalize;
     border-radius:3px;
     color: white;
 }
+.section-banner {
+    background-image: url(assets/hero-bg.png);
+    height: 672px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div-banner {
+    
+}
