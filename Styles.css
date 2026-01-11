@@ -9,7 +9,7 @@
     font-family: inter;
  }
 .nav-items {
-    width: 370px;
+    width: 400px;
     display: flex;
     justify-content: space-around;
 }
@@ -171,4 +171,23 @@
     border-top: 1px solid rgba(229, 231, 235, 1);
     color: white;
     text-align: center;
+}
+.get-early-access:hover{
+    color: white;
+    background-color: rgb(109, 197, 109);
+}
+.access-2:hover{
+    color: white;
+    background-color:transparent;
+}
+.access-2{
+    background-color: #30B868;
+    height:52px ;
+    width: 251px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid #ccc;
 }
