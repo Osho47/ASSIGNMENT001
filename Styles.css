@@ -34,7 +34,7 @@
     color: white;
     padding: 12.5px 14px;
     text-align: start;
-
+    display: flex;
 }
 .section-banner {
     background-image: url(assets/hero-bg.png);
@@ -119,4 +119,24 @@
     height: 700px;
     align-items: center;
     padding-left: 100px;
+}
+.Think {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.Section-5 {
+    background-color: rgba(247, 246, 242, 1);
+    width: 80%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+}
+.Text-grey {
+    color: #627382;
 }
