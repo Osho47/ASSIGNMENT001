@@ -29,10 +29,12 @@ text-transform: capitalize;
 .get-early-access {
     background-color:#30B868 ;
     height: 44px ;
-    width: 156px ;
     border: none;
     border-radius:3px;
     color: white;
+    padding: 12.5px 14px;
+    text-align: start;
+
 }
 .section-banner {
     background-image: url(assets/hero-bg.png);
@@ -42,5 +44,28 @@ text-transform: capitalize;
     background-size: cover;
 }
 .div-banner {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10%;
+    gap: 16px;
+}
+#Building {
+    display: flex;
+}
+#Banner-Buttons {
+    display: flex;
+    gap: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+#Early-access {
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    color: #30B868;
 }
