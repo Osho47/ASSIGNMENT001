@@ -112,3 +112,11 @@
     display: flex;
     gap: 24px;
 }
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 700px;
+    align-items: center;
+    padding-left: 100px;
+}
